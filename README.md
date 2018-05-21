@@ -7,7 +7,7 @@ A JSON - MessagePack parser using native elixir data types as intermediate type 
 - MessagePack supports binary data, JSON does not;
 Due to said differences and for reasons of simplicity this implementation does not support: encodings other than UTF-8, UTF-16 surrogate pairs in JSON strings, bin 8/16/32, ext 8/16/32, float 32 and fixext 1/2/4/8/16 MessagePack formats.
 
-##Type mappings
+## Type mappings
 
  JSON   | MsgPack | Elixir 
 ------------------------------
