@@ -1,0 +1,11 @@
+{application,json_msgpack_parser,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"json_msgpack_parser"},
+              {modules,['Elixir.IRType','Elixir.IRType.Atom',
+                        'Elixir.IRType.BitString','Elixir.IRType.Float',
+                        'Elixir.IRType.Integer','Elixir.IRType.List',
+                        'Elixir.IRType.Map','Elixir.IRType.Tuple',
+                        'Elixir.JSON','Elixir.MsgPack']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {extra_applications,[logger]}]}.
