@@ -9,16 +9,16 @@ Due to said differences and for reasons of simplicity this implementation does n
 
 ## Type mappings
 
- JSON   | MsgPack | Elixir 
-------------------------------
-string  | String  | BitString
-number  | Integer | Integer
-number  | Float   | Float
-literal | Boolean | Atom
-literal | Nil     | Atom
-object  | Map     | Map
-array   | Array   | List
-------------------------------
+	 JSON   | MsgPack | Elixir 
+	------------------------------
+	string  | String  | BitString
+	number  | Integer | Integer
+	number  | Float   | Float
+	literal | Boolean | Atom
+	literal | Nil     | Atom
+	object  | Map     | Map
+	array   | Array   | List
+	------------------------------
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
